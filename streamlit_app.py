@@ -9,7 +9,7 @@ st.markdown(
     <style>
     /* Ubah warna latar belakang utama */
     .stApp {
-        background-color: #4B0082; /* Ungu tua */
+        background-color: #1A001F; /* Ungu tua */
         color: white;
     }
 
