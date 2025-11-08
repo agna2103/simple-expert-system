@@ -1,6 +1,5 @@
 import streamlit as st
 
-#st.set_page_config(page_title="Persiapan Emosional Pra-Nikah", layout="centered")
 
 st.markdown(
     """ 
