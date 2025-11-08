@@ -23,7 +23,7 @@ st.markdown(
     </style>
 
     <!-- Ganti URL di bawah dengan link gambar kamu -->
-    <img src="https://raw.githubusercontent.com/agna2103/simple-expert-system/main/pexels-rocsana99-948185.jpg" class="banner-img">
+    <img src="https://raw.githubusercontent.com/agna2103/simple-expert-system/9aff16990de6ec130049b18a2e502c469492b66c/download.webp" class="banner-img">
     """,
     unsafe_allow_html=True
 )
