@@ -1,46 +1,27 @@
 import streamlit as st
 
-
 # --- Konfigurasi halaman ---
 st.set_page_config(page_title="Persiapan Emosional Pra-Nikah", layout="centered")
 
-# --- Gaya kustom (CSS) ---
+# --- CSS untuk ubah warna latar belakang dan teks ---
 st.markdown(
     """
     <style>
-    /* ====== LATAR BELAKANG ====== */
+    /* Ubah warna latar belakang utama */
     .stApp {
-        background-color: #000000;
+        background-color: #4B0082; /* Ungu tua */
         color: white;
     }
 
-    /* ====== OVERLAY UNGU TRANSPARAN ====== */
-    .stApp::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background: rgba(128, 0, 128, 0.6); /* Warna ungu dengan transparansi 60% */
-        z-index: 0;
-    }
-
-    /* ====== KONTEN UTAMA ====== */
-    .block-container {
-        position: relative;
-        z-index: 1;
-        color: white;
+    /* Warna judul dan subjudul */
+    h1, h2, h3, h4, h5, h6 {
+        color: #ffffff;
         text-align: center;
     }
 
-    h1, h2, h3, h4, h5, h6 {
-        color: #ffffff;
-        text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
-    }
-
+    /* Atur warna teks biasa */
     p, div, span {
-        color: #f0f0f0;
+        color: #e6e6e6;
     }
     </style>
     """,
@@ -52,9 +33,7 @@ st.title("Persiapan Emosional Pra-Nikah")
 st.subheader("AI dalam Psikologi Kelompok 1")
 
 st.write("""
-Selamat datang di aplikasi ini! 🌿  
-Di sini kita akan membahas pentingnya **persiapan emosional sebelum pernikahan**,  
-dengan bantuan **AI dalam bidang psikologi**.
+Selamat datang di aplikasi sederhana ini!  
+Aplikasi ini membahas pentingnya **persiapan emosional sebelum pernikahan**, 
+dengan dukungan **AI dalam bidang psikologi**.
 """)
-
-
