@@ -17,6 +17,6 @@ st.image(
     width=120,
     caption="Persiapan Emosional Pra-Nikah"
 )
-st.title("Persiapan Emosional Pra-Nikah")
+#st.title("Persiapan Emosional Pra-Nikah")
 st.subheader("AI dalam Psikologi Kelompok 1")
 st.write("Selamat datang di aplikasi ini! 💜")
