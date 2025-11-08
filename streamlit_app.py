@@ -9,8 +9,6 @@ st.markdown(
         background-color: #2E003E;
         color: white;
     }
-
-    /* Gambar banner di kanan atas */
     .banner-img {
         position: fixed;
         top: 15px;
@@ -18,12 +16,11 @@ st.markdown(
         width: 100px;
         border-radius: 8px;
         box-shadow: 0px 0px 6px rgba(0,0,0,0.5);
-        z-index: 100;
+        z-index: 9999;
     }
     </style>
 
-    <!-- Ganti URL di bawah dengan link gambar kamu -->
-    <img src="https://raw.githubusercontent.com/agna2103/simple-expert-system/9aff16990de6ec130049b18a2e502c469492b66c/download.webp" class="banner-img">
+    <img src="https://github.com/agna2103/simple-expert-system/blob/9aff16990de6ec130049b18a2e502c469492b66c/download.webp?raw=true" class="banner-img">
     """,
     unsafe_allow_html=True
 )
