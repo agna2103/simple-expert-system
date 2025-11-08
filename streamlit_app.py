@@ -10,7 +10,7 @@ st.markdown(
     <style>
     /* ====== LATAR BELAKANG ====== */
     .stApp {
-        background-image: url("https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1920&q=80");
+        background-image: url("https://raw.githubusercontent.com/agna2103/simple-expert-system/main/pexels-rocsana99-948185.jpg");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
