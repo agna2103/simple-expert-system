@@ -10,11 +10,8 @@ st.markdown(
     <style>
     /* ====== LATAR BELAKANG ====== */
     .stApp {
-        background-image: url("https://raw.githubusercontent.com/agna2103/simple-expert-system/main/pexels-rocsana99-948185.jpg");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        position: relative;
+        background-color: #000000;
+        color: white;
     }
 
     /* ====== OVERLAY UNGU TRANSPARAN ====== */
