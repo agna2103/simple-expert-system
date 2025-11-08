@@ -12,10 +12,15 @@ st.markdown(
     unsafe_allow_html=True
 )
 with st.container():
-    st.image(
-        "https://raw.githubusercontent.com/agna2103/simple-expert-system/9aff16990de6ec130049b18a2e502c469492b66c/download.webp",
-        width=120,
+    st.markdown(
+        """
+        <div style="text-align: left;">
+            <img src="https://raw.githubusercontent.com/agna2103/simple-expert-system/9aff16990de6ec130049b18a2e502c469492b66c/download.webp" width="120">
+        </div>
+        """,
+        unsafe_allow_html=True
     )
+
 st.title("Persiapan Emosional Pra-Nikah")
 st.subheader("AI dalam Psikologi Kelompok 1")
 st.write("Selamat datang di aplikasi ini! 💜")
