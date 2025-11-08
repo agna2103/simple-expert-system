@@ -14,7 +14,7 @@ st.markdown(
 with st.container():
     st.markdown(
         """
-        <div style="text-align: left;">
+        <div style="text-align: right;">
             <img src="https://raw.githubusercontent.com/agna2103/simple-expert-system/9aff16990de6ec130049b18a2e502c469492b66c/download.webp" width="120">
         </div>
         """,
